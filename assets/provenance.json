@@ -1,0 +1,182 @@
+{
+  "hero.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\job-20261108-010927\\0.png",
+    "reference": "user-provided concept image",
+    "transformation": "resize 1200x800, WebP quality91"
+  },
+  "card-paper.webp": {
+    "type": "existing-user-project-asset",
+    "source": "D:\\浅语首页\\assets\\momo-line-dog-skin.png",
+    "transformation": "resize1004x565, WebP quality92"
+  },
+  "wanfeng.webp": {
+    "type": "existing-user-project-asset",
+    "source": "D:\\浅语首页\\assets\\avatar-small.png"
+  },
+  "brand.woff2": {
+    "type": "existing-user-project-asset",
+    "source": "embedded BrandKuaiLe subset from original index.html"
+  },
+  "avatar-1.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\job-20261108-011229\\image-1.png",
+    "reference": "user-provided concept style",
+    "transformation": "quadrant 1, resize320x320, WebPquality91",
+    "role": "illustrative profile avatar, not verified real person"
+  },
+  "avatar-2.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\job-20261108-011229\\image-1.png",
+    "reference": "user-provided concept style",
+    "transformation": "quadrant 2, resize320x320, WebPquality91",
+    "role": "illustrative profile avatar, not verified real person"
+  },
+  "avatar-3.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\job-20261108-011229\\image-1.png",
+    "reference": "user-provided concept style",
+    "transformation": "quadrant 3, resize320x320, WebPquality91",
+    "role": "illustrative profile avatar, not verified real person"
+  },
+  "avatar-4.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\job-20261108-011229\\image-1.png",
+    "reference": "user-provided concept style",
+    "transformation": "quadrant 4, resize320x320, WebPquality91",
+    "role": "illustrative profile avatar, not verified real person"
+  },
+  "theme-background.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\background\\job-20261108-014324\\0.png",
+    "transformation": "resize(800, 1200), WebPquality92",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "entry-dispatch.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\dispatch\\job-20261108-014342\\0.png",
+    "transformation": "resize(768, 512), WebPquality92; connected exterior-paper segmentation; enclosed white foreground preserved; edge antialiasing",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "entry-choose.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\choose\\job-20261108-014327\\0.png",
+    "transformation": "resize(768, 512), WebPquality92; connected exterior-paper segmentation; enclosed white foreground preserved; edge antialiasing",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "project-king.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\projects\\job-20261108-014326\\0.png",
+    "transformation": "quadrant 1, resize320x320; connected exterior-paper segmentation; enclosed white foreground preserved; edge antialiasing",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "project-peace.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\projects\\job-20261108-014326\\0.png",
+    "transformation": "quadrant 2, resize320x320; connected exterior-paper segmentation; enclosed white foreground preserved; edge antialiasing",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "project-genshin.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\projects\\job-20261108-014326\\0.png",
+    "transformation": "quadrant 3, resize320x320; connected exterior-paper segmentation; enclosed white foreground preserved; edge antialiasing",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "project-more.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\theme-v2\\projects\\job-20261108-014326\\0.png",
+    "transformation": "quadrant 4, resize320x320; connected exterior-paper segmentation; enclosed white foreground preserved; edge antialiasing",
+    "reference": [
+      "C:\\Users\\31222\\AppData\\Local\\Temp\\codex-clipboard-b5fcc510-2767-46cd-8e60-a365fb998cb7.png",
+      "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\card-paper.webp"
+    ]
+  },
+  "newcomer-1.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\newcomers-v3\\job-20261108-025251\\image-1.png",
+    "reference": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\hero.webp",
+    "transformation": "quadrant 1, resize320x320, WebPquality92",
+    "role": "illustrative demo newcomer profile"
+  },
+  "newcomer-2.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\newcomers-v3\\job-20261108-025251\\image-1.png",
+    "reference": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\hero.webp",
+    "transformation": "quadrant 2, resize320x320, WebPquality92",
+    "role": "illustrative demo newcomer profile"
+  },
+  "newcomer-3.webp": {
+    "type": "AI-generated",
+    "provider": "Right Code / PPToken",
+    "model": "gpt-image-2",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\rightcode-draw\\newcomers-v3\\job-20261108-025251\\image-1.png",
+    "reference": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\hero.webp",
+    "transformation": "quadrant 3, resize320x320, WebPquality92",
+    "role": "illustrative demo newcomer profile"
+  },
+  "wenkai-ui.woff2": {
+    "type": "open-source-font",
+    "family": "LXGW WenKai GB Screen",
+    "license": "SIL Open Font License 1.1",
+    "source": "https://github.com/lxgw/LxgwWenKai-Screen",
+    "transformation": "WOFF2 subset for current prototype characters; regenerate subset when adding content"
+  },
+  "kuaile-heading.woff2": {
+    "type": "open-source-font",
+    "family": "ZCOOL KuaiLe",
+    "license": "SIL Open Font License 1.1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/zcoolkuaile",
+    "transformation": "WOFF2 subset for current prototype characters; regenerate subset when adding content"
+  },
+  "choose-card-skin.svg": {
+    "type": "code-native vector",
+    "source": "D:\\CDriveMoved\\Users\\31222\\Documents\\Codex\\2026-11-08\\d-index-html-x20\\outputs\\womeng-home\\assets\\choose-card-skin.svg",
+    "role": "hand-drawn background skin for the 我要点单 companion roster"
+  }
+}

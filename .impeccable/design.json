@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T19:09:54.252536+00:00",
+  "title": "Design System: 我萌俱乐部",
+  "extensions": {
+    "typographyMeta": {
+      "body": {
+        "displayName": "霞鹜文楷屏幕阅读版",
+        "purpose": "本地WOFF2正文。"
+      },
+      "display": {
+        "displayName": "站酷快乐体",
+        "purpose": "标题、人物名和点单入口。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "featured-card",
+        "value": "0 7px 15px #7784b622,inset 0 0 0 1px #b0bfde",
+        "purpose": "收藏卡完整纸面边缘。"
+      },
+      {
+        "name": "newcomer-card",
+        "value": "0 3px 10px #7c8bb014",
+        "purpose": "简洁新人小卡。"
+      },
+      {
+        "name": "bookmark",
+        "value": "none",
+        "purpose": "用燕尾形状识别，不添加重阴影。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "card-throw",
+        "value": "300–440ms",
+        "purpose": "四张预渲染卡沿手势方向飞出并保留原节点递补，无文本和图像重绘。"
+      },
+      {
+        "name": "card-lift-and-return",
+        "value": "300ms",
+        "purpose": "全部底卡连续升层或短拖回弹。"
+      },
+      {
+        "name": "announcement",
+        "value": "4800ms hold / 340ms transition",
+        "purpose": "垂直自动公告轮播；不显示计数或暂停控件，公告与下方元素在同一页面滚动流一起移动，正文层级高于固定首图，不使用独立内部滚动，聚焦、隐藏、离屏或弹层打开时停止。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "card90ms / return80ms / announcement autoplay off",
+        "purpose": "减轻空间位移，公告默认暂停。"
+      },
+      {
+        "name": "hero-fade-and-snap",
+        "value": "hero opacity 1→0 / snap to announcement",
+        "purpose": "正文首次向下滚动后吸附到公告栏顶部并禁止继续下滑，向上可返回页面顶部；首图层连同白色边界完全消失。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-phone",
+        "value": "370px"
+      },
+      {
+        "name": "desktop-frame",
+        "value": "600px"
+      }
+    ],
+    "themeAssets": [
+      "hero.webp",
+      "card-paper.webp",
+      "theme-background.webp",
+      "entry-dispatch.webp",
+      "entry-choose.webp",
+      "newcomer-1.webp",
+      "newcomer-2.webp",
+      "newcomer-3.webp"
+    ],
+    "background": {
+      "element": "body::before",
+      "position": "fixed",
+      "repeat": "no-repeat",
+      "opacity": ".42",
+      "otherLayers": "body and app have no background image"
+    },
+    "heroLayer": {
+      "element": ".hero",
+      "position": "sticky",
+      "top": "0px",
+      "scrollFade": "0 to 0.78 * hero height",
+      "artOpacity": "1 to 0",
+      "snapOffset": "announcement absolute top",
+      "purpose": "正文上滑经过首图时，固定主视觉逐渐浅色隐退；回到顶部恢复。"
+    },
+    "cardSkin": {
+      "default": "cloud-paws",
+      "contract": "SKINS.md",
+      "layers": 4,
+      "rendering": "persistent DOM nodes; decoded portraits; rotate array after throw"
+    }
+  },
+  "components": [
+    {
+      "name": "头牌收藏卡",
+      "kind": "card",
+      "refersTo": "featured-card",
+      "description": "头像在左，昵称性别与语音在右，下方项目与指定按钮，右上角收藏书签；四张完整节点。"
+    },
+    {
+      "name": "语音条",
+      "kind": "button",
+      "refersTo": "button-voice",
+      "description": "圆形播放按钮、静态波形和试听文字。"
+    },
+    {
+      "name": "指定TA",
+      "kind": "button",
+      "refersTo": "button-specify",
+      "description": "粉色小票券及虚线内框。"
+    },
+    {
+      "name": "收藏书签",
+      "kind": "button",
+      "refersTo": "bookmark",
+      "description": "燕尾、心形与文字；选中变粉。"
+    },
+    {
+      "name": "新人报道",
+      "kind": "card",
+      "refersTo": "newcomer-card",
+      "description": "三列简洁照片卡，姓名性别与项目。"
+    },
+    {
+      "name": "公告轮播",
+      "kind": "other",
+      "refersTo": "announcement",
+      "description": "单条垂直自动轮播，不显示计数或暂停控件。"
+    }
+  ],
+  "narrative": {
+    "northStar": "蓝白耳机角色与可丢出的奶白收藏卡",
+    "overview": "同主题纸券、书签与新人小卡；单层固定背景；文楷正文与快乐体标题。",
+    "keyCharacteristics": [
+      "完整皮肤叠卡与连续节点递补",
+      "右侧语音填充，昵称性别清楚",
+      "收藏书签与票券式指定按钮",
+      "新人使用简单小卡片",
+      "自动公告轮播"
+    ],
+    "rules": [],
+    "dos": [
+      "按项目收费",
+      "保持皮肤与数据分离",
+      "本地字体和素材",
+      "尊重减少动效"
+    ],
+    "donts": [
+      "不放个人价格",
+      "不用纯色背卡",
+      "不在丢卡结束时替换人物内容",
+      "不叠加两层页面背景",
+      "不在首页入口添加解释字段"
+    ]
+  }
+}

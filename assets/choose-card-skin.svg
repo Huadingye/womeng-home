@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 132" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="0.58" stop-color="#fcf9ff"/>
+      <stop offset="1" stop-color="#fff7fb"/>
+    </linearGradient>
+    <linearGradient id="edgeBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9cbed"/>
+      <stop offset="0.5" stop-color="#91a9dc"/>
+      <stop offset="1" stop-color="#c5b9e3"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4d5f3"/>
+      <stop offset="0.5" stop-color="#eee0f6"/>
+      <stop offset="1" stop-color="#f0c9de"/>
+    </linearGradient>
+    <pattern id="paperDots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="3" r="0.7" fill="#9eacd3" opacity="0.14"/>
+      <circle cx="12" cy="11" r="0.55" fill="#d2a8c8" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect x="1" y="1" width="458" height="130" rx="16" fill="url(#paper)" stroke="#c8d4eb" stroke-width="2"/>
+  <rect x="8" y="8" width="444" height="116" rx="12" fill="url(#paperDots)" opacity="0.72"/>
+  <rect x="9" y="9" width="442" height="114" rx="11" fill="none" stroke="#e5ddea" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <path d="M15 30 C54 18 80 31 117 20 S177 21 213 15" fill="none" stroke="url(#edgeBlue)" stroke-width="3" stroke-linecap="round" opacity="0.82"/>
+  <path d="M15 34 C51 23 78 36 116 25 S178 26 213 20" fill="none" stroke="#f0cce0" stroke-width="1.6" stroke-linecap="round" opacity="0.82"/>
+  <path d="M247 113 C285 104 322 119 354 108 S412 108 446 97" fill="none" stroke="url(#ribbon)" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M248 118 C287 109 322 124 355 113 S412 113 446 102" fill="none" stroke="#9db8e8" stroke-width="1.5" stroke-linecap="round" opacity="0.76"/>
+
+  <path d="M23 92 C31 85 40 85 48 91" fill="none" stroke="#9eb4df" stroke-width="2" stroke-linecap="round" opacity="0.72"/>
+  <path d="M413 32 C422 26 431 27 438 34" fill="none" stroke="#d8a8c9" stroke-width="2" stroke-linecap="round" opacity="0.72"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 17 l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" stroke="#8ca6dc" stroke-width="1.3"/>
+    <path d="M429 82 l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" stroke="#d8a2c7" stroke-width="1.3"/>
+    <path d="M217 111 l1.5 3.5 3.5 1.5-3.5 1.5-1.5 3.5-1.5-3.5-3.5-1.5 3.5-1.5z" stroke="#e5b77a" stroke-width="1.1"/>
+  </g>
+
+  <g fill="#d9e4fa" stroke="#8da5d6" stroke-width="1.2" opacity="0.92">
+    <circle cx="67" cy="112" r="3"/>
+    <circle cx="76" cy="110" r="2"/>
+    <circle cx="85" cy="113" r="2.5"/>
+  </g>
+  <g fill="#f0cfe2" stroke="#c895b7" stroke-width="1" opacity="0.82">
+    <circle cx="380" cy="19" r="2.5"/>
+    <circle cx="389" cy="17" r="1.7"/>
+    <circle cx="398" cy="20" r="2.2"/>
+  </g>
+</svg>
