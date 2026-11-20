@@ -12,6 +12,13 @@ const newcomers=[
 ];
 const allPeople=[...profiles,...newcomers];
 const personalDemoAccount={nickname:'小满',avatar:'assets/avatar-4.webp',balance:'¥268.00'};
+const personalBoardStorageKey='womeng-personal-board-v1';
+const personalBoardDefaults={nickname:'小满',avatar:'assets/avatar-4.webp',age:'22',likes:'王者荣耀、原神、轻松聊天',dislikes:'鸽单、临时变更',intro:'喜欢在游戏里认识新朋友，一起把每一局都玩得开心。',uploadedCard:''};
+let personalBoardState={...personalBoardDefaults};
+let personalBoardDraft=null;
+try{const stored=JSON.parse(localStorage.getItem(personalBoardStorageKey)||'null');if(stored&&typeof stored==='object')personalBoardState={...personalBoardDefaults,...stored};}catch{}
+function persistPersonalBoard(){try{localStorage.setItem(personalBoardStorageKey,JSON.stringify(personalBoardState));return true;}catch{return false;}}
+function escapePersonalBoard(value){return String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));}
 const chooseOrderSkuCatalog={
   '王者荣耀':[['一局','¥29.9',29.9],['半小时','¥39.9',39.9],['一小时','¥69.9',69.9],['4小时','¥239.9',239.9],['包天（8小时）','¥399.9',399.9]],
   '原神':[['一局','¥24.9',24.9],['半小时','¥34.9',34.9],['一小时','¥59.9',59.9],['4小时','¥199.9',199.9],['包天（8小时）','¥329.9',329.9]],
